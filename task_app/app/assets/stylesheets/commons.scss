@@ -1,0 +1,95 @@
+header {
+      width: 100%;
+      padding: 15px;
+      border-bottom: 7px solid orange;
+      background:#c52f24;
+      color:#fff;
+      font-size:32px;
+      font-weight:700;
+    }
+
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+
+.img {
+    width:30px;
+}
+
+.alert {
+    color:red;
+}
+
+a.new-link,.index-link,.end_btn {
+    margin-top:0px;
+    text-decoration: none;
+    color: white ; 
+    border: 4px
+    solid orange;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+
+a.new-link,.index-link,.end_btn {
+  background:#c52f24;
+}
+
+a.index-link {
+    background:#1e50a2;
+}
+
+ 
+footer {
+      width: 100%;
+      padding: 20px;
+      display:block;
+      border-top: 7px solid orange;
+      background:#c52f24;
+      color:#fff;
+      font-size:32px;
+      font-weight:700;
+      margin:0px;
+     
+    }
+ 
+
+table th {
+        background-color: #fbc25b;
+        padding: 10px 20px;
+        text-align:center;
+    }
+
+.f_column {
+    color:red;
+    font-size:8px;
+}
+ 
+table td {
+        background-color: #f9ecd5;
+        padding: 10px 20px;
+        text-align:center;
+    }
+ 
+.notice {
+        background-color: #ccf;
+        padding: 5px;
+    }
+
+div.field_with_errors > .form_check {
+   background-color: #f0908d;
+}

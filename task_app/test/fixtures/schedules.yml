@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start: MyString
+  close: MyString
+  allday: MyString
+  memo: MyString
+
+two:
+  title: MyString
+  start: MyString
+  close: MyString
+  allday: MyString
+  memo: MyString
