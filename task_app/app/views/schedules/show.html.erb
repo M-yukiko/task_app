@@ -1,0 +1,29 @@
+<H2><%= image_tag 'smartphone_cover_techou.png', class: 'img' %> スケジュール詳細</H2>
+
+    <table>
+        <tr>
+            <th>タイトル</th>
+            <td><%= @schedule.title %></td>
+        </tr>
+        <tr>
+            <th>開始日</th><td><%= @schedule.start %></td>
+        </tr>
+        <tr>
+            <th>終了日</th><td><%= @schedule.close %></td>
+        </tr>
+        <tr>
+            <th>終日</th>
+            <td>
+                <% if @schedule.allday == true %>
+                <string>○</string>
+                <% end %>
+            </td>
+        </tr>           
+        <tr>
+            <th>スケジュールメモ</th><td><%= @schedule.memo %>
+        </td>
+        </tr>   
+    </table>
+
+<p><%= link_to "スケジュール一覧に戻る", schedules_path, class: "index-link" %></p>
+
